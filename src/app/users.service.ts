@@ -3,7 +3,6 @@ import { Injectable } from '@angular/core';
 @Injectable(/*{
   providedIn: 'root' 
 }*/)
-  
 export class UsersService {
   private users = [
     {
@@ -29,10 +28,6 @@ export class UsersService {
     {
       userName: 'Igor',
       age: 32,
-    },
-    {
-      userName: 'Dima',
-      age: 25,
     },
   ];
 
