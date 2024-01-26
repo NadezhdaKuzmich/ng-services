@@ -1,0 +1,9 @@
+<h2>List of Users:</h2>
+<ul>
+  <ng-container *ngFor="let user of usersList">
+    <li>
+      <p>Name: {{ user.userName }}</p>
+      <p>Age: {{ user.age }}</p>
+    </li>
+  </ng-container>
+</ul>
